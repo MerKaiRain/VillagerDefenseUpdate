@@ -97,7 +97,7 @@ Welcome:
   - '&7&lW_'
   - '&7&lW_'
 time:
-  change-interval: 900
+  change-interval: 1500
   texts:
   - '&7Time &1%time%'
   - '&7Date &9%date%'

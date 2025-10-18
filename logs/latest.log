@@ -1,0 +1,433 @@
+[03:32:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Eclipse Adoptium Temurin-21.0.5+11) on Linux 5.15.0-121-generic (amd64)
+[03:32:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) for Minecraft 1.21.4
+[03:32:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:32:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 27 plugins
+[03:32:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (27):
+ - Citizens (2.0.37-SNAPSHOT (build 3760)), DecentHolograms (2.9.6), DeluxeMenus (1.14.1-Release), Essentials (2.22.0-dev+15-5ed43f3), EssentialsChat (2.22.0-dev+15-5ed43f3), EssentialsSpawn (2.22.0-dev+15-5ed43f3), GadgetsMenu (4.19.0), Images (2.5.7), ItemJoin (6.1.4-RELEASE-b1090), KotlinPlugins (1.0-SNAPSHOT), LuckPerms (5.5.10), MiniMOTD (2.1.5), Multiverse-Core (5.2.0), NoBurningMobs (1.0-SNAPSHOT), PlaceholderAPI (2.11.6), ProtocolLib (5.4.0), TAB (5.2.5), Vault (2.15.1), ViaBackwards (5.5.1-SNAPSHOT), ViaRewind (4.0.11-SNAPSHOT), ViaVersion (5.5.1-SNAPSHOT), VillagerDefense (1.2.14), VoidGen (2.2.1), VoidSpawn (1.22.0), WorldEdit (7.3.16+cbf4bd5), WorldGuard (7.0.13+82fdc65), ajParkour (2.12.10)
+[03:32:14] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:32:16] [ServerMain/INFO]: Loaded 1370 recipes
+[03:32:16] [ServerMain/INFO]: Loaded 1481 advancements
+[03:32:16] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[03:32:16] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 127.4ms
+[03:32:16] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[03:32:16] [Server thread/INFO]: Loading properties
+[03:32:16] [Server thread/INFO]: This server is running Paper version 1.21.4-232-ver/1.21.4@12d8fe0 (2025-06-09T10:15:42Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[03:32:16] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:32:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:32:16] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:32:17] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:32:17] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[03:32:17] [Server thread/INFO]: Default game type: SURVIVAL
+[03:32:17] [Server thread/INFO]: Generating keypair
+[03:32:17] [Server thread/INFO]: Starting Minecraft server on 209.192.149.196:25648
+[03:32:17] [Server thread/INFO]: Using epoll channel type
+[03:32:17] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:32:17] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loading 5 libraries... please wait
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/ch/ethz/globis/phtree/phtree/2.8.1/phtree-2.8.1.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/it/unimi/dsi/fastutil/8.5.15/fastutil-8.5.15.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-platform-api/4.3.3/adventure-platform-api-4.3.3.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.3/adventure-text-serializer-bungeecord-4.3.3.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-text-serializer-legacy/4.13.1/adventure-text-serializer-legacy-4.13.1.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-text-serializer-gson/4.13.1/adventure-text-serializer-gson-4.13.1.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-platform-facet/4.3.3/adventure-platform-facet-4.3.3.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-platform-viaversion/4.3.3/adventure-platform-viaversion-4.3.3.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[03:32:17] [Server thread/INFO]: [SpigotLibraryLoader] [Citizens] Loaded library /home/minecraft/multicraft/servers/server2679238/default/libraries/net/kyori/adventure-key/4.17.0/adventure-key-4.17.0.jar
+[03:32:18] [Server thread/INFO]: [NoBurningMobs] Loading server plugin NoBurningMobs v1.0-SNAPSHOT
+[03:32:18] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.2.1
+[03:32:18] [Server thread/INFO]: [KotlinPlugins] Loading server plugin KotlinPlugins v1.0-SNAPSHOT
+[03:32:18] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[03:32:18] [Server thread/INFO]: [VoidSpawn] Loading server plugin VoidSpawn v1.22.0
+[03:32:18] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1-SNAPSHOT
+[03:32:18] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[03:32:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:32:18] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[03:32:18] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:32:18] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:32:19] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[03:32:19] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1-SNAPSHOT
+[03:32:19] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.1.5
+[03:32:19] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.11-SNAPSHOT
+[03:32:19] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.10
+[03:32:19] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[03:32:19] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.6
+[03:32:19] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[03:32:19] [Server thread/INFO]: [Vault] Loading server plugin Vault v2.15.1
+[03:32:19] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[03:32:19] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1c2adc86]
+[03:32:19] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0-dev+15-5ed43f3
+[03:32:19] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.2.0
+[03:32:19] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.13+82fdc65
+[03:32:19] [Server thread/INFO]: [Citizens] Loading server plugin Citizens v2.0.37-SNAPSHOT (build 3760)
+[03:32:19] [Server thread/INFO]: [ajParkour] Loading server plugin ajParkour v2.12.10
+[03:32:19] [Server thread/INFO]: [Images] Loading server plugin Images v2.5.7
+[03:32:19] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.22.0-dev+15-5ed43f3
+[03:32:19] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[03:32:19] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[03:32:19] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[03:32:19] [Server thread/INFO]: [ItemJoin] Loading server plugin ItemJoin v6.1.4-RELEASE-b1090
+[03:32:19] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.22.0-dev+15-5ed43f3
+[03:32:19] [Server thread/INFO]: [GadgetsMenu] Loading server plugin GadgetsMenu v4.19.0
+[03:32:19] [Server thread/INFO]: [VillagerDefense] Loading server plugin VillagerDefense v1.2.14
+[03:32:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:32:19] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[03:32:19] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[03:32:19] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.11-SNAPSHOT
+[03:32:19] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.10
+[03:32:20] [Server thread/INFO]:         __    
+[03:32:20] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.10
+[03:32:20] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[03:32:20] [Server thread/INFO]: 
+[03:32:20] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[03:32:20] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[03:32:20] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[03:32:20] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 778ms)
+[03:32:20] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[03:32:20] [Server thread/INFO]: [Vault] Enabling Vault v2.15.1
+[03:32:20] [Server thread/INFO]: [Vault] Enabled Version 2.15.1
+[03:32:20] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[03:32:20] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[03:32:20] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:32:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[03:32:20] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_4.PaperweightAdapter as the Bukkit adapter
+[03:32:21] [Server thread/INFO]: [ItemJoin] Enabling ItemJoin v6.1.4-RELEASE-b1090
+[03:32:21] [Server thread/INFO]: Preparing level "VillageDefense_world"
+[03:32:21] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[03:32:21] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[03:32:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:32:22] [Server thread/INFO]: Preparing spawn area: 0%
+[03:32:22] [Server thread/INFO]: Time elapsed: 377 ms
+[03:32:22] [Server thread/INFO]: [NoBurningMobs] Enabling NoBurningMobs v1.0-SNAPSHOT
+[03:32:22] [Server thread/INFO]: [NoBurningMobs] NoBurningMobs plugin has been enabled.
+[03:32:22] [Server thread/INFO]: [KotlinPlugins] Enabling KotlinPlugins v1.0-SNAPSHOT
+[03:32:22] [Server thread/INFO]: [KotlinPlugins] 🌟 KotlinFix has been enabled! 🌟
+[03:32:22] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[03:32:22] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[03:32:22] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vaultunlocked [2.13.1]
+[03:32:22] [Server thread/INFO]: [VoidSpawn] Enabling VoidSpawn v1.22.0
+[03:32:22] [Server thread/INFO]: [VoidSpawn] No SkyBlock plugins found, disabling island mode support.
+[03:32:22] [Server thread/INFO]: [VoidSpawn] v1.22.0 by EnderCrest enabled
+[03:32:22] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.1-SNAPSHOT
+[03:32:22] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[03:32:22] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.5.1-SNAPSHOT
+[03:32:22] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.1.5
+[03:32:23] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.6
+[03:32:23] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_21_R3 (1.21.4).
+[03:32:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[03:32:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[03:32:23] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[03:32:23] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
+[03:32:23] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0-dev+15-5ed43f3
+[03:32:23] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[03:32:23] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:32:23] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[03:32:23] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[03:32:23] [Server thread/WARN]: [Essentials] File plugins/Essentials/items.json has been modified by user and file version differs, please update the file manually.
+[03:32:23] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[03:32:23] [Server thread/INFO]: [Essentials] Using locale en_US
+[03:32:23] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:32:23] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:32:23] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[03:32:23] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.2.0
+[03:32:24] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[03:32:24] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[03:32:24] [Server thread/ERROR]: [Multiverse-Core] Failed to load world VillageDefense_world_nether: Failure{reason=WORLD_FOLDER_INVALID}
+[03:32:24] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[03:32:24] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[03:32:24] [Server thread/INFO]: Preparing start region for dimension minecraft:mush
+[03:32:24] [Server thread/INFO]: Preparing spawn area: 0%
+[03:32:24] [Server thread/INFO]: Time elapsed: 111 ms
+[03:32:24] [Server thread/INFO]: Preparing start region for dimension minecraft:mush_challenge
+[03:32:24] [Server thread/INFO]: Preparing spawn area: 0%
+[03:32:24] [Server thread/INFO]: Time elapsed: 101 ms
+[03:32:24] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[03:32:24] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[03:32:24] [Server thread/INFO]: Preparing start region for dimension minecraft:hollow
+[03:32:24] [Server thread/INFO]: Preparing spawn area: 0%
+[03:32:24] [Server thread/INFO]: Time elapsed: 338 ms
+[03:32:24] [Server thread/INFO]: Preparing start region for dimension minecraft:quarry_challenge
+[03:32:24] [Server thread/INFO]: Preparing spawn area: 0%
+[03:32:25] [Server thread/INFO]: Time elapsed: 80 ms
+[03:32:25] [Server thread/ERROR]: [Multiverse-Core] Failed to load world VillageDefense_world_the_end: Failure{reason=WORLD_FOLDER_INVALID}
+[03:32:25] [Server thread/INFO]: Preparing start region for dimension minecraft:hollow_challenge
+[03:32:25] [Server thread/INFO]: Preparing spawn area: 0%
+[03:32:25] [Server thread/INFO]: Time elapsed: 73 ms
+[03:32:25] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[03:32:25] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[03:32:25] [Server thread/INFO]: Preparing start region for dimension minecraft:quarry
+[03:32:25] [Server thread/INFO]: Preparing spawn area: 0%
+[03:32:25] [Server thread/INFO]: Time elapsed: 78 ms
+[03:32:25] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.2.0]
+[03:32:25] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[03:32:25] [Server thread/INFO]: [Multiverse-Core] Version 5.2.0 (API v5.2) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[03:32:25] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[03:32:25] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.13+82fdc65
+[03:32:25] [Server thread/INFO]: [WorldGuard] (VillageDefense_world) TNT ignition is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (VillageDefense_world) Lighters are PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (VillageDefense_world) Lava fire is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (VillageDefense_world) Fire spread is UNRESTRICTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'VillageDefense_world'
+[03:32:25] [Server thread/INFO]: [WorldGuard] (Mush) TNT ignition is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (Mush) Lighters are PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (Mush) Lava fire is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (Mush) Fire spread is UNRESTRICTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Mush'
+[03:32:25] [Server thread/INFO]: [WorldGuard] (Mush_challenge) TNT ignition is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (Mush_challenge) Lighters are PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (Mush_challenge) Lava fire is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (Mush_challenge) Fire spread is UNRESTRICTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Mush_challenge'
+[03:32:25] [Server thread/INFO]: [WorldGuard] (hollow) TNT ignition is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (hollow) Lighters are PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (hollow) Lava fire is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (hollow) Fire spread is UNRESTRICTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hollow'
+[03:32:25] [Server thread/INFO]: [WorldGuard] (quarry_challenge) TNT ignition is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (quarry_challenge) Lighters are PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (quarry_challenge) Lava fire is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (quarry_challenge) Fire spread is UNRESTRICTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'quarry_challenge'
+[03:32:25] [Server thread/INFO]: [WorldGuard] (hollow_challenge) TNT ignition is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (hollow_challenge) Lighters are PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (hollow_challenge) Lava fire is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (hollow_challenge) Fire spread is UNRESTRICTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'hollow_challenge'
+[03:32:25] [Server thread/INFO]: [WorldGuard] (quarry) TNT ignition is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (quarry) Lighters are PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (quarry) Lava fire is PERMITTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] (quarry) Fire spread is UNRESTRICTED.
+[03:32:25] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'quarry'
+[03:32:25] [Server thread/INFO]: [WorldGuard] Loading region data...
+[03:32:25] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.37-SNAPSHOT (build 3760)
+[03:32:26] [Server thread/INFO]: [Citizens] Using mojmapped server, avoiding server package checks
+[03:32:26] [Server thread/INFO]: [Citizens] Loaded 0 templates.
+[03:32:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: citizensplaceholder [1.0.0]
+[03:32:26] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[03:32:26] [Server thread/INFO]: [ajParkour] Enabling ajParkour v2.12.10
+[03:32:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ajpk [2.12.10]
+[03:32:26] [Server thread/INFO]: ajParkour v2.12.10 by ajgeiss0702 has been enabled!
+[03:32:26] [Server thread/INFO]: [Images] Enabling Images v2.5.7
+[03:32:26] [Server thread/INFO]: [Images] PaperMC server detected. Adjustments will be made to accommodate...
+[03:32:26] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.22.0-dev+15-5ed43f3
+[03:32:26] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[03:32:26] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[03:32:26] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[03:32:26] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[03:32:26] [Server thread/WARN]: [DeluxeMenus] Found 'data' option for item: teststone in menu: basics_menu. This option is deprecated and will be removed soon. Please use 'damage' instead.
+[03:32:26] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'highest_wave' in menu 'advanced_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[03:32:26] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'kills' in menu 'advanced_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[03:32:26] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'level' in menu 'advanced_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[03:32:26] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'games_played' in menu 'advanced_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[03:32:26] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'deaths' in menu 'advanced_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[03:32:26] [Server thread/WARN]: [DeluxeMenus] Option 'hide_attributes' of item 'close-menu' in menu 'advanced_menu' is deprecated and will be removed in the future. Replace it with item_flags: [HIDE_ATTRIBUTES].
+[03:32:26] [Server thread/INFO]: [DeluxeMenus] 3 GUI menus loaded!
+[03:32:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[03:32:26] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[03:32:26] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[03:32:26] [Server thread/INFO]: [TAB] [WARN] [config.yml] placeholders: Missing configuration section "placeholders.register-tab-expansion" of type Boolean, using default value false.
+[03:32:26] [Server thread/INFO]: [TAB] [WARN] [config.yml] scoreboard-teams: Missing configuration section "scoreboard-teams.can-see-friendly-invisibles" of type Boolean, using default value false.
+[03:32:26] [Server thread/INFO]: [TAB] [WARN] [groups.yml] Unknown property "customtagname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[03:32:26] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "abovename" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[03:32:26] [Server thread/INFO]: [TAB] [WARN] [users.yml] Unknown property "belowname" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[03:32:26] [Server thread/INFO]: [TAB] [WARN] Found a total of 5 issues.
+[03:32:26] [Server thread/INFO]: [TAB] Enabled in 131ms
+[03:32:26] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.22.0-dev+15-5ed43f3
+[03:32:26] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[03:32:26] [Server thread/INFO]: [GadgetsMenu] Enabling GadgetsMenu v4.19.0
+[03:32:26] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[03:32:26] [Server thread/INFO]: [GadgetsMenu]        GadgetsMenu [Free] 4.19.0 is loading...
+[03:32:26] [Server thread/INFO]: [GadgetsMenu]       [server: 1.21.4-232-12d8fe0 (MC: 1.21.4)]
+[03:32:26] [Server thread/INFO]: [GadgetsMenu]                  Running Java 21.0.5
+[03:32:26] [Server thread/INFO]: [GadgetsMenu]                Plugin by Yap Zhen Yie.
+[03:32:26] [Server thread/INFO]: [GadgetsMenu]              Date Modified: 13 July 2025
+[03:32:26] [Server thread/INFO]: [GadgetsMenu]                            
+[03:32:26] [Server thread/INFO]: [GadgetsMenu]              Initializing module v1_21_R3
+[03:32:26] [Server thread/INFO]: [GadgetsMenu] ------------------------------------------------------
+[03:32:26] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully registered economy storage: default (GadgetsMenu)
+[03:32:26] [Server thread/INFO]: [GadgetsMenu] [Economy Storage] Successfully set default as the active economy storage.
+[03:32:27] [Server thread/INFO]: [GadgetsMenu] Initialized Sound Effects. (took 37ms)
+[03:32:27] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:32:27] [Server thread/INFO]: [GadgetsMenu] Connecting to SQLite database...
+[03:32:27] [Server thread/INFO]: [GadgetsMenu] Successfully connected to SQLite database!
+[03:32:27] [Server thread/INFO]: [GadgetsMenu] Enabled Mystery Vault individual hologram.
+[03:32:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gadgetsmenu [1.0.3]
+[03:32:27] [Server thread/INFO]: [GadgetsMenu] [Placeholder] PlaceholderAPI hooked.
+[03:32:27] [Server thread/INFO]: [VillagerDefense] Enabling VillagerDefense v1.2.14
+[03:32:27] [Server thread/INFO]: [VillagerDefense] All worlds fully loaded. The plugin is properly initialized.
+[03:32:27] [Server thread/INFO]: [spark] Starting background profiler...
+[03:32:28] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[03:32:28] [Server thread/INFO]: Done preparing level "VillageDefense_world" (6.259s)
+[03:32:28] [Server thread/INFO]: Running delayed init tasks
+[03:32:28] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[03:32:28] [Craft Scheduler Thread - 6 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[03:32:28] [Craft Scheduler Thread - 3 - ItemJoin/INFO]: [ItemJoin] Hooked into { Multiverse-Core, WorldGuard, PlaceholderAPI, ProtocolLib, Citizens, Vault }
+[03:32:28] [Craft Scheduler Thread - 9 - Essentials/INFO]: [Essentials] Fetching version information...
+[03:32:28] [Craft Scheduler Thread - 16 - GadgetsMenu/INFO]: [GadgetsMenu] Checking for updates...
+[03:32:28] [Craft Scheduler Thread - 6 - DecentHolograms/INFO]: [DecentHolograms] Loaded 8 holograms!
+[03:32:28] [Server thread/INFO]: [ItemJoin] 2/2 Custom item(s) loaded!
+[03:32:28] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v2.15.1)!
+[03:32:28] [Craft Scheduler Thread - 8 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[03:32:28] [Server thread/INFO]: [Citizens] Loaded 4 NPCs.
+[03:32:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[03:32:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: utils [1.0.9]
+[03:32:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[03:32:28] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[03:32:28] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.5.1, you're on: 5.5.1-SNAPSHOT
+[03:32:28] [Server thread/INFO]: Done (17.269s)! For help, type "help"
+[03:32:28] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] Checking for updates...
+[03:32:28] [Craft Scheduler Thread - 16 - GadgetsMenu/INFO]: [GadgetsMenu] You have an old version of the plugin. You are using 4.19.0, available version 4.19.1.
+[03:32:28] [Craft Scheduler Thread - 14 - ajParkour/INFO]: [ajParkour] You are up to date! (2.12.10)
+[03:32:28] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] Your current version: v6.1.4-RELEASE
+[03:32:28] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] A new version is available: v6.1.5-RELEASE
+[03:32:28] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] Get it from: https://github.com/RockinChaos/itemjoin/releases/latest
+[03:32:28] [Craft Scheduler Thread - 0 - ItemJoin/INFO]: [ItemJoin] If you wish to auto update, please type /ItemJoin Upgrade
+[03:32:28] [Craft Scheduler Thread - 5 - MiniMOTD/INFO]: [MiniMOTD] There is an update available for MiniMOTD!
+[03:32:28] [Craft Scheduler Thread - 5 - MiniMOTD/INFO]: [MiniMOTD] This server is running version v2.1.5, which is 5 versions outdated.
+[03:32:28] [Craft Scheduler Thread - 5 - MiniMOTD/INFO]: [MiniMOTD] Download the latest version, v2.2.1 from GitHub at the link below:
+[03:32:28] [Craft Scheduler Thread - 5 - MiniMOTD/INFO]: [MiniMOTD] https://github.com/jpenilla/MiniMOTD/releases/tag/v2.2.1
+[03:32:28] [Craft Scheduler Thread - 9 - Essentials/WARN]: [Essentials] You're 25 EssentialsX dev build(s) out of date!
+[03:32:28] [Craft Scheduler Thread - 9 - Essentials/WARN]: [Essentials] Download it here: https://essentialsx.net/downloads.html
+[03:32:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vd [1.0.0]
+[03:32:29] [Craft Scheduler Thread - 9 - Images/INFO]: [Images] Loaded 1 images...
+[03:32:58] [Server thread/INFO]: Saving the game (this may take a moment!)
+[03:32:58] [Server thread/INFO]: Saved the game
+[03:32:58] [Server thread/INFO]: Stopping the server
+[03:32:58] [Server thread/INFO]: Stopping server
+[03:32:58] [Server thread/INFO]: [VillagerDefense] Disabling VillagerDefense v1.2.14
+[03:32:58] [Server thread/INFO]: [GadgetsMenu] Disabling GadgetsMenu v4.19.0
+[03:32:58] [Server thread/INFO]: [GadgetsMenu] SQLite database connection has been closed.
+[03:32:58] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.22.0-dev+15-5ed43f3
+[03:32:58] [Server thread/INFO]: [ItemJoin] Disabling ItemJoin v6.1.4-RELEASE-b1090
+[03:32:58] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[03:32:58] [Server thread/INFO]: [TAB] Disabled in 1ms
+[03:32:58] [Server thread/INFO]: [DeluxeMenus] Disabling DeluxeMenus v1.14.1-Release
+[03:32:58] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.22.0-dev+15-5ed43f3
+[03:32:58] [Server thread/INFO]: [Images] Disabling Images v2.5.7
+[03:32:58] [Server thread/INFO]: [ajParkour] Disabling ajParkour v2.12.10
+[03:32:58] [Server thread/INFO]: [ajParkour] Removing all active players from parkour because the plugin is disabling.
+[03:32:58] [Server thread/INFO]: ajParkour v2.12.10 by ajgeiss0702 has been disabled!
+[03:32:58] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.37-SNAPSHOT (build 3760)
+[03:32:58] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.13+82fdc65
+[03:32:58] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[03:32:58] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.2.0
+[03:32:58] [Server thread/INFO]: [Essentials] Disabling Essentials v2.22.0-dev+15-5ed43f3
+[03:32:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[03:32:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:32:58] [Server thread/INFO]: [Vault] Disabling Vault v2.15.1
+[03:32:58] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[03:32:58] [Server thread/INFO]: [DecentHolograms] Disabling DecentHolograms v2.9.6
+[03:32:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.10
+[03:32:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[03:32:58] [Server thread/INFO]: [LuckPerms] Closing storage...
+[03:32:58] [Server thread/INFO]: [LuckPerms] Goodbye!
+[03:32:58] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v4.0.11-SNAPSHOT
+[03:32:58] [Server thread/INFO]: [MiniMOTD] Disabling MiniMOTD v2.1.5
+[03:32:58] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v5.5.1-SNAPSHOT
+[03:32:58] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.5.1-SNAPSHOT
+[03:32:58] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[03:32:58] [Server thread/INFO]: [VoidSpawn] Disabling VoidSpawn v1.22.0
+[03:32:58] [Server thread/INFO]: [VoidSpawn] v1.22.0 saving config
+[03:32:58] [Server thread/INFO]: [VoidSpawn] v1.22.0 disabled
+[03:32:58] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[03:32:58] [Server thread/INFO]: [KotlinPlugins] Disabling KotlinPlugins v1.0-SNAPSHOT
+[03:32:58] [Server thread/INFO]: [KotlinPlugins] 🌙 KotlinFix is going to sleep... 🌙
+[03:32:58] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
+[03:32:58] [Server thread/INFO]: [NoBurningMobs] Disabling NoBurningMobs v1.0-SNAPSHOT
+[03:32:58] [Server thread/INFO]: [NoBurningMobs] NoBurningMobs plugin has been disabled.
+[03:32:58] [Server thread/INFO]: Saving players
+[03:32:58] [Server thread/INFO]: Saving worlds
+[03:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[VillageDefense_world]'/minecraft:overworld
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'VillageDefense_world'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'VillageDefense_world'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'VillageDefense_world'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'VillageDefense_world' in 0.08s
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'VillageDefense_world'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'VillageDefense_world'
+[03:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mush]'/minecraft:mush
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Mush'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Mush'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Mush'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Mush' in 0.00s
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Mush'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Mush'
+[03:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Mush_challenge]'/minecraft:mush_challenge
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'Mush_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'Mush_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'Mush_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'Mush_challenge' in 0.00s
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'Mush_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'Mush_challenge'
+[03:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hollow]'/minecraft:hollow
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hollow'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hollow'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'hollow'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'hollow' in 0.00s
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hollow'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hollow'
+[03:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[quarry_challenge]'/minecraft:quarry_challenge
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'quarry_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'quarry_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'quarry_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'quarry_challenge' in 0.00s
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'quarry_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'quarry_challenge'
+[03:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[hollow_challenge]'/minecraft:hollow_challenge
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hollow_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hollow_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'hollow_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'hollow_challenge' in 0.00s
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hollow_challenge'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hollow_challenge'
+[03:32:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[quarry]'/minecraft:quarry
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'quarry'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'quarry'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'quarry'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'quarry' in 0.00s
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'quarry'
+[03:32:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'quarry'
+[03:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (VillageDefense_world): All chunks are saved
+[03:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mush): All chunks are saved
+[03:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (Mush_challenge): All chunks are saved
+[03:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (hollow): All chunks are saved
+[03:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (quarry_challenge): All chunks are saved
+[03:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (hollow_challenge): All chunks are saved
+[03:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (quarry): All chunks are saved
+[03:32:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:32:58] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[03:32:58] [Server thread/INFO]: All I/O tasks to complete
+[03:32:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[03:32:58] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

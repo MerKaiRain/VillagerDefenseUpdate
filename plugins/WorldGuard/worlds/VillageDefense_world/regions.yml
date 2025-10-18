@@ -12,7 +12,8 @@
 regions:
     __global__:
         members: {}
-        flags: {time-lock: day, build: deny, pvp: deny, weather-lock: clear, mob-spawning: deny}
+        flags: {time-lock: day, feed-max-hunger: 20, build: deny, invincible: allow,
+            pvp: deny, mob-spawning: deny, weather-lock: clear, natural-hunger-drain: deny}
         owners: {}
         type: global
         priority: 0

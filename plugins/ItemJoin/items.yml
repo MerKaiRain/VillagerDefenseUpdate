@@ -1,7 +1,7 @@
 # --{ =-=-=-=-=-=-=-=-=-= ItemJoin's Custom Item Configurations, by RockinChaos =-=-=-=-=-=-=-=-=-= }--
 # See the tutorial page for a more in-depth explanation; https://github.com/RockinChaos/ItemJoin/wiki
 # Join the discord for easy plugin support; https://discord.gg/D5FnJ7C
-# 
+#
 # Modifying the Version will cause this file to break and regenerate.
 items-Version: 8
 items-Delay: 2
@@ -21,20 +21,11 @@ items:
     itemflags: death-drops, self-drops
     triggers: join, respawn, world-switch
     enabled-worlds: VillageDefense_world
-  play-item:
-    id: COMPASS
+  parkour:
+    id: SLIME_BLOCK
     slot: 4
-    name: '&a&lPLAY &7[Right Click]'
-    lore:
-    - '&7Click to go to the survival server!'
-    interact:
-    - 'player: vd arenas'
-    inventory:
-    - 'player: vd arenas'
-    commands-sound: BLOCK_NOTE_BLOCK_PLING
-    commands-cooldown: 0
-    enchantment: FIRE_ASPECT:3
-    itemflags: inventory-modify, hide-attributes
-    triggers: join, respawn, world-switch
-    permission-node: itemjoin.play
+    name: '&d&lPARKOUR &7[Right Click]'
+    interact-right:
+    - 'player: ajp start'
+    triggers: JOIN, WORLD-SWITCH
     enabled-worlds: VillageDefense_world

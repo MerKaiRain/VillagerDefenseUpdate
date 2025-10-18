@@ -1,0 +1,14 @@
+location: VillageDefense_world:0.675:66.741:4.382
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&b&lVILLAGE &b&lDEFENSE'
+    height: 0.3
+  - content: '&eWill you be able to save your village?'
+    height: 0.3
+  actions: {}

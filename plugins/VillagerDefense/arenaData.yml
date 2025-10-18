@@ -1,0 +1,745 @@
+lobby:
+  world: VillageDefense_world
+  x: 2.293194500651158
+  y: 64.5
+  z: 4.526353152634348
+  pitch: 1.6611722
+  yaw: 9.630737
+arena:
+  '0':
+    closed: true
+    name: Hollow
+    max: 12
+    min: 1
+    wolf: 5
+    golem: 2
+    maxWaves: -1
+    waveTimeLimit: -1
+    difficulty: 1
+    sounds:
+      win: true
+      lose: true
+      start: true
+      end: true
+      gem: true
+      death: true
+      ability: true
+      waiting: none
+    normal: true
+    enchants: true
+    community: true
+    gemDrop: false
+    expDrop: false
+    particles:
+      spawn: true
+      monster: true
+      villager: true
+      border: false
+    portal:
+      world: VillageDefense_world
+      x: 6.5
+      y: 66.0
+      z: 8.5
+      pitch: -2.8030894
+      yaw: 148.51117
+    waiting:
+      world: hollow
+      x: 31.099360840568778
+      y: 72.0
+      z: 56.628312563318474
+      pitch: 5.3577914
+      yaw: -90.9335
+    spawn:
+      world: hollow
+      x: -47.52339536262718
+      y: 72.0
+      z: 49.86263355555151
+      pitch: -1.5874878
+      yaw: 88.16736
+    spawnTable: default
+    monster:
+      '0':
+        world: hollow
+        x: -75.55290296015255
+        y: 72.0
+        z: 54.51215833128729
+        pitch: 8.442668
+        yaw: -90.12692
+        type: 0
+      '1':
+        world: hollow
+        x: -76.22769784923163
+        y: 72.0
+        z: 44.41577580966434
+        pitch: 25.061682
+        yaw: -89.766785
+      '2':
+        world: hollow
+        x: -75.40697527726411
+        y: 72.0
+        z: 63.65311096069426
+        pitch: 11.468817
+        yaw: -92.295654
+    villager:
+      '0':
+        world: hollow
+        x: -46.81510144962352
+        y: 72.0
+        z: 63.419376214454616
+        pitch: 0.74416757
+        yaw: 177.9566
+      '1':
+        world: hollow
+        x: -45.253888799828154
+        y: 72.0
+        z: 32.89611072313264
+        pitch: 7.3917685
+        yaw: -1.1688843
+      '2':
+        world: hollow
+        x: -43.344398159316995
+        y: 72.0
+        z: 63.25223449881836
+        pitch: 13.65161
+        yaw: -91.30371
+      '3':
+        world: hollow
+        x: -33.402652009563916
+        y: 72.0
+        z: 38.42332221534275
+        pitch: 22.53162
+        yaw: -134.46344
+    dynamicCount: true
+    lateArrival: true
+    corner2:
+      world: hollow
+      x: 6.673254842000113
+      y: 56.512405017230314
+      z: 83.98841367756461
+      pitch: -4.532788
+      yaw: 153.078
+    records:
+      '0':
+        wave: 2
+        players:
+        - MerKaiRain
+        - Chesvin1
+      '1':
+        wave: 1
+        players:
+        - MerKaiRain
+      '2':
+        wave: 0
+        players:
+        - Sora_Canstavia
+      '3':
+        wave: 0
+        players:
+        - MerKaiRain
+    custom: true
+    customShop:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":["Gold Nugget00100"]}'
+    corner1:
+      world: hollow
+      x: -104.57516959449515
+      y: 98.86624597242057
+      z: 13.934709014493215
+      pitch: 23.06727
+      yaw: -60.523132
+  '1':
+    closed: true
+    name: Mushroom
+    max: 12
+    min: 1
+    wolf: 5
+    golem: 2
+    maxWaves: 10
+    waveTimeLimit: -1
+    difficulty: 1
+    sounds:
+      win: true
+      lose: true
+      start: true
+      end: true
+      gem: true
+      death: true
+      ability: true
+      waiting: none
+    normal: true
+    enchants: true
+    community: true
+    gemDrop: false
+    expDrop: false
+    particles:
+      spawn: true
+      monster: true
+      villager: true
+      border: false
+    portal:
+      world: VillageDefense_world
+      x: 0.5
+      y: 66.0
+      z: 10.5
+      pitch: 15.833971
+      yaw: -179.5969
+    spawn:
+      world: Mush
+      x: 3.1724428524411934
+      y: 72.0
+      z: -1.3442254309036652
+      pitch: -10.715561
+      yaw: 45.94998
+    monster:
+      '1':
+        world: Mush
+        x: -9.636001506278792
+        y: 73.0
+        z: 17.215707794105636
+        pitch: 2.678905
+        yaw: 74.92175
+      '2':
+        world: Mush
+        x: -18.543140565803853
+        y: 70.0
+        z: -13.261502561280222
+        pitch: 9.673752
+        yaw: 76.60831
+      '3':
+        world: Mush
+        x: 18.039008172741273
+        y: 71.0
+        z: 33.510961881768125
+        pitch: -12.35262
+        yaw: 51.45688
+    villager:
+      '0':
+        world: Mush
+        x: -31.663760907388788
+        y: 86.0
+        z: 53.615679602989
+        pitch: 6.2506833
+        yaw: -165.89307
+      '1':
+        world: Mush
+        x: -15.068054981006512
+        y: 84.0
+        z: 53.60149972269482
+        pitch: 1.2401743
+        yaw: 172.77478
+      '2':
+        world: Mush
+        x: -42.975747023244395
+        y: 86.0
+        z: 29.851872122535802
+        pitch: 16.370934
+        yaw: -85.923584
+    corner1:
+      world: Mush
+      x: -65.30000001192093
+      y: 66.0
+      z: 75.33358364532106
+      pitch: 35.52009
+      yaw: -129.49127
+    corner2:
+      world: Mush
+      x: 40.88928237621476
+      y: 105.23028367038485
+      z: -81.8647577194384
+      pitch: 32.990044
+      yaw: 33.127563
+    spawnTable: default
+    records:
+      '0':
+        wave: 1
+        players:
+        - MerKaiRain
+    custom: true
+    customShop:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":["Gold Nugget00100"]}'
+  '2':
+    closed: true
+    name: Quarry
+    max: 12
+    min: 1
+    wolf: 5
+    golem: 2
+    maxWaves: 10
+    waveTimeLimit: -1
+    difficulty: 1
+    sounds:
+      win: true
+      lose: true
+      start: true
+      end: true
+      gem: true
+      death: true
+      ability: true
+      waiting: none
+    normal: true
+    enchants: true
+    community: true
+    gemDrop: false
+    expDrop: false
+    particles:
+      spawn: true
+      monster: true
+      villager: true
+    portal:
+      world: VillageDefense_world
+      x: -5.5
+      y: 66.0
+      z: 8.5
+      pitch: 4.4888673
+      yaw: -143.40034
+    monster:
+      '0':
+        world: quarry
+        x: -9.573986471733448
+        y: 80.0
+        z: -25.337934402138035
+        pitch: 21.976826
+        yaw: 1.7489014
+      '1':
+        world: quarry
+        x: 4.534337465030371
+        y: 80.0
+        z: -21.431607272081802
+        pitch: 18.752241
+        yaw: 2.343689
+      '2':
+        world: quarry
+        x: 16.402594470415316
+        y: 80.0
+        z: -24.11233865220574
+        pitch: 32.394684
+        yaw: -0.28518677
+    spawn:
+      world: quarry
+      x: -0.6142453742181312
+      y: 80.0
+      z: 16.24844326004315
+      pitch: 1.0418069
+      yaw: -175.3299
+    villager:
+      '0':
+        world: quarry
+        x: -10.777727395650874
+        y: 80.0
+        z: 17.608870304669622
+        pitch: 8.880062
+        yaw: -147.37476
+      '1':
+        world: quarry
+        x: 9.471637030828923
+        y: 80.0
+        z: 7.096585487343482
+        pitch: 2.4804933
+        yaw: -165.68066
+      '2':
+        world: quarry
+        x: -21.736539879496796
+        y: 80.0
+        z: 10.87241837230288
+        pitch: 10.169902
+        yaw: 97.581665
+    corner1:
+      world: quarry
+      x: -36.18658570731757
+      y: 103.71973120443216
+      z: 61.16072319373205
+      pitch: 51.642967
+      yaw: -143.37018
+    corner2:
+      world: quarry
+      x: 28.393454582321212
+      y: 46.200000047683716
+      z: -56.30000001192093
+      pitch: 10.169857
+      yaw: 45.492188
+    spawnTable: default
+    records:
+      '0':
+        wave: 0
+        players:
+        - Chesvin1
+        - MerKaiRain
+    custom: true
+    customShop:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":["Gold Nugget00100"]}'
+  '3':
+    closed: true
+    name: Mushroom_Challenge
+    max: 12
+    min: 1
+    wolf: 5
+    golem: 2
+    maxWaves: -1
+    waveTimeLimit: -1
+    difficulty: 1
+    sounds:
+      win: true
+      lose: true
+      start: true
+      end: true
+      gem: true
+      death: true
+      ability: true
+      waiting: none
+    normal: true
+    enchants: true
+    community: true
+    gemDrop: false
+    expDrop: false
+    particles:
+      spawn: true
+      monster: true
+      villager: true
+    forcedChallenges:
+    - Dwarf
+    spawn:
+      world: Mush_challenge
+      x: -32.32894766812527
+      y: 85.0
+      z: 33.1735163052196
+      pitch: 20.399914
+      yaw: -124.350235
+    villager:
+      '0':
+        world: Mush_challenge
+        x: -29.321973888131108
+        y: 85.0
+        z: 47.601113052471604
+        pitch: 16.499924
+        yaw: -29.850403
+      '1':
+        world: Mush_challenge
+        x: -39.23725714469695
+        y: 85.0
+        z: 25.096661171036562
+        pitch: 34.79988
+        yaw: -73.799805
+    monster:
+      '0':
+        world: Mush_challenge
+        x: -10.034075264139698
+        y: 70.0
+        z: -15.217771319208419
+        pitch: 4.499938
+        yaw: 62.101715
+      '1':
+        world: Mush_challenge
+        x: 18.31276221517263
+        y: 72.0
+        z: 21.42217988538159
+        pitch: 49.649982
+        yaw: 83.101135
+      '2':
+        world: Mush_challenge
+        x: 9.370455894410117
+        y: 72.0
+        z: 3.2940845615653815
+        pitch: 11.399975
+        yaw: 72.901184
+        type: 0
+      '3':
+        world: Mush_challenge
+        x: -45.22328868310129
+        y: 78.0
+        z: -31.47893745998875
+        pitch: 6.599841
+        yaw: -10.6484375
+    spawnTable: default
+    custom: true
+    customShop:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":["Gold Nugget00100"]}'
+    portal:
+      world: VillageDefense_world
+      x: 0.5
+      y: 66.0
+      z: -9.5
+      pitch: 54.72745
+      yaw: 0.5206126
+    corner1:
+      world: Mush_challenge
+      x: -65.05148373509995
+      y: 113.69028010051389
+      z: 80.3670740846839
+      pitch: 42.068386
+      yaw: -141.21075
+    corner2:
+      world: Mush_challenge
+      x: 43.027643293669264
+      y: 66.0
+      z: -94.09817034629339
+      pitch: 19.19862
+      yaw: 35.596558
+    records:
+      '0':
+        wave: 1
+        players:
+        - Chesvin1
+        - Sora_Canstavia
+  '4':
+    closed: true
+    name: Hollow_Challenge
+    max: 12
+    min: 1
+    wolf: 5
+    golem: 2
+    maxWaves: -1
+    waveTimeLimit: -1
+    difficulty: 1
+    sounds:
+      win: true
+      lose: true
+      start: true
+      end: true
+      gem: true
+      death: true
+      ability: true
+      waiting: none
+    normal: true
+    enchants: true
+    community: true
+    gemDrop: false
+    expDrop: false
+    particles:
+      spawn: true
+      monster: true
+      villager: true
+    spawn:
+      world: hollow_challenge
+      x: -45.39234058227177
+      y: 72.0
+      z: 51.82009358032516
+      pitch: 9.475327
+      yaw: 87.758415
+    monster:
+      '0':
+        world: hollow_challenge
+        x: -73.98335127593121
+        y: 72.0
+        z: 63.56270679955361
+        pitch: 14.833092
+        yaw: -89.48175
+      '1':
+        world: hollow_challenge
+        x: -76.35189523586709
+        y: 72.0
+        z: 54.703747292691524
+        pitch: 11.013196
+        yaw: -90.07675
+      '2':
+        world: hollow_challenge
+        x: -74.79668507105625
+        y: 72.0
+        z: 44.61404893004301
+        pitch: 14.436245
+        yaw: -88.971985
+    villager:
+      '0':
+        world: hollow_challenge
+        x: -48.05879282194887
+        y: 72.0
+        z: 61.45216704068791
+        pitch: 17.015915
+        yaw: -171.71991
+      '1':
+        world: hollow_challenge
+        x: -33.73407537960665
+        y: 72.0
+        z: 38.57352586395706
+        pitch: 13.592884
+        yaw: 84.000854
+      '2':
+        world: hollow_challenge
+        x: -45.84130491941266
+        y: 72.0
+        z: 33.725410899376236
+        pitch: 27.53304
+        yaw: 5.023224
+    forcedChallenges:
+    - Naked
+    - Featherweight
+    corner2:
+      world: hollow_challenge
+      x: -95.38975772019911
+      y: 91.66414243284513
+      z: 8.621631134374734
+      pitch: 42.812595
+      yaw: -43.804775
+    portal:
+      world: VillageDefense_world
+      x: 6.5
+      y: 66.0
+      z: -7.5
+      pitch: 4.820802
+      yaw: 37.132156
+    corner1:
+      world: hollow_challenge
+      x: 8.898605734413923
+      y: 61.06388295638474
+      z: 88.76185701925817
+      pitch: 1.3394371
+      yaw: 131.2656
+    spawnTable: default
+    custom: true
+    customShop:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":["Gold Nugget00100"]}'
+    records:
+      '0':
+        wave: 4
+        players:
+        - Sora_Canstavia
+        - Chesvin1
+  '5':
+    closed: true
+    name: Quarry_Challenge
+    max: 12
+    min: 1
+    wolf: 5
+    golem: 2
+    maxWaves: -1
+    waveTimeLimit: -1
+    difficulty: 1
+    sounds:
+      win: true
+      lose: true
+      start: true
+      end: true
+      gem: true
+      death: true
+      ability: true
+      waiting: none
+    normal: true
+    enchants: true
+    community: true
+    gemDrop: false
+    expDrop: false
+    particles:
+      spawn: true
+      monster: true
+      villager: true
+    spawn:
+      world: quarry_challenge
+      x: -1.2878724033912974
+      y: 80.0
+      z: 12.71567604967878
+      pitch: 6.002618
+      yaw: -173.79236
+    monster:
+      '0':
+        world: quarry_challenge
+        x: -9.552374620872996
+        y: 80.0
+        z: -25.301225483658982
+        pitch: 63.648445
+        yaw: -0.18579102
+      '1':
+        world: quarry_challenge
+        x: 4.448813362666228
+        y: 80.0
+        z: -21.38984379932198
+        pitch: 28.227629
+        yaw: 0.91851807
+      '2':
+        world: quarry_challenge
+        x: 16.462349820784087
+        y: 80.0
+        z: -24.288576627135985
+        pitch: 22.373817
+        yaw: -0.6062012
+    villager:
+      '0':
+        world: quarry_challenge
+        x: -11.826651411469657
+        y: 80.0
+        z: 16.614982015959782
+        pitch: 25.102074
+        yaw: -172.14111
+      '1':
+        world: quarry_challenge
+        x: -25.407892232328994
+        y: 83.0
+        z: 6.575840980112
+        pitch: 13.047085
+        yaw: 48.26001
+      '2':
+        world: quarry_challenge
+        x: 10.56503056362244
+        y: 80.0
+        z: 6.274812044559506
+        pitch: 15.9243965
+        yaw: 148.65521
+    corner1:
+      world: quarry_challenge
+      x: -37.30000001192093
+      y: 54.03156168876972
+      z: -56.26495646183525
+      pitch: 9.326464
+      yaw: -16.172554
+    corner2:
+      world: quarry_challenge
+      x: 28.685980471500727
+      y: 111.6025064536266
+      z: 62.01843290859671
+      pitch: 54.52024
+      yaw: 144.4159
+    forcedChallenges:
+    - Amputee
+    - Explosive
+    portal:
+      world: VillageDefense_world
+      x: -5.5
+      y: 66.0
+      z: -7.5
+      pitch: 27.839354
+      yaw: -31.563873
+    custom: true
+    customShop:
+      '0':
+        ==: org.bukkit.inventory.ItemStack
+        v: 4189
+        type: GOLD_NUGGET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":["Gold Nugget00100"]}'
+    spawnTable: default
+infoBoard: {}
+leaderboard: {}

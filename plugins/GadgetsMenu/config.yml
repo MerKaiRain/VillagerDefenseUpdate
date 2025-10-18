@@ -1,8 +1,8 @@
 # This option allows you to set where
 # player's data do you want to save.
-# 
+#
 # Storages: 'sqlite' or 'mysql'.
-# 
+#
 # If you enable mysql, you need to setup MySQL infos.
 Player-Data:
   Storage: sqlite
@@ -262,4 +262,4 @@ Disabled-Commands:
 # Check for updates if you set to true.
 Check-Update: true
 # Do not edit this.
-Config-Version: 1.0.18
+Config-Version: 1.0.20

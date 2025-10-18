@@ -1,0 +1,9 @@
+#  This is where the plugin stores all the areas and portals.
+#  Be careful when editing this file, it could cause some areas or portals to fail to load!
+
+areas:
+  spawn:
+    difficulty: BALANCED
+    max: 2147483647
+    pos1: VillageDefense_world,10,65,-8,-24.833252,26.614456
+    pos2: VillageDefense_world,-33,93,33,40.253815,32.61715
